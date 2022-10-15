@@ -1,0 +1,110 @@
+# Otro programa mas con bucle
+# cuenta los pares
+def cuenta_atras():
+    for cont in range(0,100,2):
+        print(cont)
+        print("ES PAR")
+    print("Estos son los numeros pares")
+cuenta_atras()
+
+0
+ES PAR
+2
+ES PAR
+4
+ES PAR
+6
+ES PAR
+8
+ES PAR
+10
+ES PAR
+12
+ES PAR
+14
+ES PAR
+16
+ES PAR
+18
+ES PAR
+20
+ES PAR
+22
+ES PAR
+24
+ES PAR
+26
+ES PAR
+28
+ES PAR
+30
+ES PAR
+32
+ES PAR
+34
+ES PAR
+36
+ES PAR
+38
+ES PAR
+40
+ES PAR
+42
+ES PAR
+44
+ES PAR
+46
+ES PAR
+48
+ES PAR
+50
+ES PAR
+52
+ES PAR
+54
+ES PAR
+56
+ES PAR
+58
+ES PAR
+60
+ES PAR
+62
+ES PAR
+64
+ES PAR
+66
+ES PAR
+68
+ES PAR
+70
+ES PAR
+72
+ES PAR
+74
+ES PAR
+76
+ES PAR
+78
+ES PAR
+80
+ES PAR
+82
+ES PAR
+84
+ES PAR
+86
+ES PAR
+88
+ES PAR
+90
+ES PAR
+92
+ES PAR
+94
+ES PAR
+96
+ES PAR
+98
+ES PAR
+Estos son los numeros pares
