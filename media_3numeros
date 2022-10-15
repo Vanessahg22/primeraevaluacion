@@ -1,0 +1,15 @@
+# Este lindo programa sirve para calcular la media de 3 numeros
+def calcula_media():
+    n1=int(input("dime un numero: "))
+    n2=int(input("dime otro numero: "))
+    n3=int(input("dime otro numero mas: "))
+    suma=n1+n2+n3
+    media=suma/3
+    print(media)
+    
+calcula_media()
+
+dime un numero: 4
+dime otro numero: 8
+dime otro numero mas: 10
+7.333333333333333
