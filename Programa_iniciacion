@@ -1,0 +1,9 @@
+# Programa de iniciacion.
+# Me pregunta el nombre y responde saludandome.
+a=input("Numero 1: ")
+b=input("Numero 2: ")
+print(a+b)
+
+Numero 1: 2
+Numero 2: 3
+23
