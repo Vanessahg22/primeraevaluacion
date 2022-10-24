@@ -1,0 +1,29 @@
+#Queremos sacar dinero, de un cajero y que me diga cuanto me queda
+def cajero():
+    seguir=True
+   
+    while(seguir==True):
+        dinero=int(input("Dime cuanto dinero: "))
+        dinero_sacar=int(input("Cuanto dinero quieres sacar: "))
+        if(dinero_sacar>dinero):
+             print("Imposible")
+             seguir=True
+        else:
+            seguir=False
+            if(dinero>=5):
+              print("Posible, te queda:")
+              seguir=True
+            else:
+                 if(dinero<5):
+                  print("No existen billetes de esa cantidad")
+               
+                   
+           
+        Restante=int(input(dinero-dinero_sacar))  
+cajero()
+        
+        
+Dime cuanto dinero: 342
+Cuanto dinero quieres sacar: 213
+Posible, te queda:
+129
