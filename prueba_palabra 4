@@ -1,0 +1,13 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+def prueba_palabra():
+    password="Aprobare"
+    if(password.islower() or password.isupper()):
+        print("No cumple el criterio de tener mayus y minus")
+    else:
+        print("Si cumple el criterio de tener mayus y minus")
+
+prueba_palabra()
+
+Si cumple el criterio de tener mayus y minus
