@@ -1,0 +1,16 @@
+# Escriba una funcion llamada "multiplicacion" que reciba como argumento cuatro numeros reales distintos de cero y que devuleva su producto.
+def multiplicacion():
+    n1=int(input("Dime un numero entero, distinto de cero: "))
+    n2=int(input("Dime otro numero entero, distinto de cero: "))
+    n3=int(input("Dime otro numero entero mas, distinto de cero: "))
+    n4=int(input("Dime un ultimo numero entero distinto de cero: "))
+    resultado=n1*n2*n3*n4
+    print(resultado)
+    
+multiplicacion()
+
+Dime un numero entero, distinto de cero: 6
+Dime otro numero entero, distinto de cero: 7
+Dime otro numero entero mas, distinto de cero: 4
+Dime un ultimo numero entero distinto de cero: 3
+504
